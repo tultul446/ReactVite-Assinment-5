@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
+import Navbar from '../common/Navbar'
+import SelectItem from './SelecteItem'
 import HeroSection from './Hero'
 import CardSection from './CardSection'
 import MyFeedback from './MyFeedback'
@@ -9,6 +10,7 @@ const index = () => {
   return (
     <>
      <Navbar/>
+     <SelectItem/>
       <HeroSection/>
       <CardSection/>
       <MyFeedback/>

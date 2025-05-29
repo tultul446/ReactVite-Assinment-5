@@ -1,3 +1,6 @@
 @import "tailwindcss";
 
-
+.ItemColors:hover{
+    background: #1677BD;
+ 
+}

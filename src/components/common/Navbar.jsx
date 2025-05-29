@@ -1,5 +1,5 @@
 import React from 'react'
-import SearchBar from '../common/Search'
+import SearchBar from './Search'
 const Navbar = () => {
   return (
     <nav className='w-full border-b-1 border-gray-200'>

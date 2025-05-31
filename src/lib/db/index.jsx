@@ -1,54 +1,22 @@
-export const selectItems = [
-    {
-        img:'./icon2.png',
-        p:'All'
-    },
-    {
-        img:'./icon3.png',
-        p:'Restaurants'
-    },
-    {
-        img:'./icon4.png',
-        p:'Hotels'
-    },
-    {
-        img:'./icon5.png',
-        p:'Home Services'
-    },
-    {
-        img:'./icon6.png',
-        p:'Shopping'
-    },
-    {
-        img:'./icon7.png',
-        p:'Car Location'
-    },
-    {
-        img:'./icon8.png',
-        p:'Beauty & Spa'
-    },
-    {
-        img:'./icon9.png',
-        p:'Park'
-    },
-    {
-        img:'./icon10.png',
-        p:'Museum'
-    },
-    {
-        img:'./icon11.png',
-        p:'Car Wash'
-    },
-    {
-        img:'./icon12.png',
-        p:'Bars'
-    },
-    {
-        img:'./icon13.png',
-        p:'Gyms'
-    }
-    
+export const SelectItems = [
+  { label: 'All', icon: './icon2.png', path: '/AllRestaurantsPage' },
+  { label: 'Restaurants', icon: './icon3.png', path: '/' },
+  { label: 'Hotels', icon: './icon4.png', path: '/HotelPage' },
+  { label: 'Home Services', icon: './icon5.png', path: '/home-services' },
+  { label: 'Shopping', icon: './icon6.png', path: '/shopping' },
+  { label: 'Car Location', icon: './icon7.png', path: '/car-location' },
+  { label: 'Beauty & Spa', icon: './icon8.png', path: '/beauty-spa' },
+  { label: 'Park', icon: './icon9.png', path: '/park' },
+  { label: 'Museum', icon: './icon10.png', path: '/museum' },
+  { label: 'Car Wash', icon: './icon11.png', path: '/car-wash' },
+  { label: 'Bars', icon: './icon12.png', path: '/bars' },
+  { label: 'Gyms', icon: './icon13.png', path: '/gyms' },
 ];
+
+
+
+
+
 
 
 export const HeroCard =[
@@ -278,5 +246,44 @@ export  const cards = [
    ],
     },
    
+   
 
   ]
+
+
+
+  export const allReviews = [
+      {images:[
+        './R7.png',
+        'R3.png',
+        'R3.png'
+      ],
+        title: "The melt",
+        rating: 4.5,
+        star:'./star.png',
+        time: "",
+        comment: "Great experience with this product!"
+      },
+      {images:[
+        './R7.png',
+        'R3.png',
+        'R3.png'
+      ],
+        title: "Arabia Nights",
+        rating: 3,
+        star:'./star.png',
+        time: "11:24",
+        comment: "Average experience, could be better."
+      },
+      {images:[
+        './R7.png',
+        'R3.png',
+        'R3.png'
+      ],
+        title: "Food Lover",
+        rating: 5,
+        star:'./star.png',
+        time: "09:15",
+        comment: "Absolutely amazing! Will order again."
+      }
+    ];

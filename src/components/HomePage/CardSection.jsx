@@ -10,7 +10,7 @@ const CardSection = () => {
 
 
   return (
-    <section className='w-full p-4'>
+    <section className='w-full overflow-hidden'>
       <div>
        <div className="p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {cards.map((card, index) => (

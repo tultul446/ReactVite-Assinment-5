@@ -30,7 +30,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="w-full">
+    <section className="w-auto overflow-hidden">
       <div className="w-full p-3 lg:w-[90%] mx-auto bg-[#1677BD] rounded-lg mb-4 mt-7">
         <h1 className="text-white font-semibold text-[20px] md:text-[24px] lg:text-[32px] lg:w-[591px] px-4">
           Find the best restaurant ratings below
@@ -45,12 +45,12 @@ const HeroSection = () => {
             <AiOutlineLeft className="mx-auto" />
           </button>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 lg:gap-7 w-full h-auto p-4 mb-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 lg:gap-7  h-auto p-4 mb-3">
             {currentSlider.map((item, i) => (
 
               <div
                 key={i}
-                className="w-[285px] h-[367px] mt-9 bg-[#F8F8F8] rounded-lg shadow-lg"
+                className="w-[235px] h-[367px] mt-9 bg-[#F8F8F8] rounded-lg shadow-lg"
               >
                 <img src={item.img} alt={item.heading} className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="px-3 py-2 text-xl font-bold text-[#232323]">{item.heading}</h3>

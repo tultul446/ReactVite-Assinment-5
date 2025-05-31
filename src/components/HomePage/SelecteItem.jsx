@@ -1,18 +1,23 @@
 import React from 'react'
-import { selectItems } from '../../lib/db/index'
+import { NavLink } from "react-router";
+import { SelectItems } from '../../lib/db';
 const SelectItem = () => {
   return (
-    <section className='w-full'>
-      <ul>
-        <li className='w-full flex justify-between items-center flex-wrap gap-7 p-3 lg:w-[80%] mx-auto '>
-            {selectItems.map((item, index) => (
-               <span key={index} className='space-x-3 space-y-2 ItemColors'>
-                <img src={item.img} alt="" className='w-[26px] h-[23px]'/>
-                 <p className='text-sm text-gray-400'>{item.p}</p>
-               </span>
-            ))}
-            
-        </li>
+    <section className=' ml-15 overflow-hidden'>
+     <ul className='flex items-center gap-6 mt-6 ml-6'>
+        {SelectItems.map((item, index) => (
+          <li key={index}>
+            <NavLink
+              to={item.path}
+              className={({ isActive }) =>
+                `text-sm ${isActive ? 'text-blue-800' : 'text-gray-500'} flex flex-col items-center`
+              }
+            >
+              <img src={item.icon} alt={item.label} className='w-4' />
+              <span>{item.label}</span>
+            </NavLink>
+          </li>
+        ))}
       </ul>
     </section>
   )

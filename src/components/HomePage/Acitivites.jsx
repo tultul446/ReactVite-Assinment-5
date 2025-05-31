@@ -25,8 +25,8 @@ const Activities = ( ) => {
     );
   };
   return (
-    <section className=''>
-     <div className='w-auto p-5'>
+    <section className='min-w-auto overflow-hidden'>
+     <div className='w-auto p-6'>
         <h1 className='text-[32px] p-3 font-semibold'>Recents avtivities</h1>
           
 
@@ -34,7 +34,7 @@ const Activities = ( ) => {
           <button
                      onClick={handleNext}
                      aria-label="Next Slide"
-                     className="absolute right-0 z-10 transform translate-x-6 flex items-center justify-center text-[#26395C] w-9 lg:w-12 h-9 lg:h-12 bg-[#fff] hover:bg-gray-600 rounded-full transition mr-7"
+                     className="absolute right-0 z-10 transform translate-x-6 flex items-center justify-center text-[#26395C] w-9 lg:w-10 h-9 lg:h-10 bg-[#fff] hover:bg-gray-600 rounded-full transition mr-7"
                    >
                      <img src='./Vector10.png' className="mx-auto" />
                    </button>  <div/>
@@ -43,11 +43,11 @@ const Activities = ( ) => {
           
         {/* main content */}
 
-<div className='grid grid-cols-1  lg:grid-cols-3 gap-6'>
+<div className='grid grid-cols-1  lg:grid-cols-3 gap-7 '>
 
   {currentSlider.map((item, i) => (
 
- <div className='w-auto  lg:w-[450px] h-[500px] bg-[#eae6e6] mt-5 py-4 px-3 rounded-xl' key={i} >
+ <div className='w-auto lg:w-[320px]   h-[500px] bg-[#eae6e6] mt-5 py-4 px-3 rounded-xl' key={i} >
             <div className='flex gap-5'>
  <img src={item.icon} alt="" className='w-[26px] h-[27px] mt-2'/>
                 <span>
@@ -66,7 +66,7 @@ const Activities = ( ) => {
 
             <div className='flex gap-4 mt-5 rounded-xl'>
             {item.images.map((img, i) => (
-                 <img src={img} alt="" className='rounded-xl' key={i}/>
+                 <img src={img} alt="" className='rounded-xl w-19 ' key={i}/>
             ))}
                
               

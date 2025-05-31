@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <section className='w-auto container m-6 h-auto '>
+    <section className='w-auto container m-6 h-auto overflow-hidden'>
 
 
 
@@ -32,7 +32,7 @@ const Footer = () => {
     </ul>
   </div>
 
-  <div className='lg:mr-9 sm:mr-5 space-y-8'>
+  <div className='lg:mr-9 sm:mr-5 space-y-8 '>
     <div className='space-y-1'>
         <h3 className='text-[18px] text-[#1E1E1E] font-bold'>Language</h3>
         <select name="text" id="" >

@@ -31,28 +31,22 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="relative max-w-md mx-auto mt-8">
-      <div className="w-auto flex items-center border border-gray-300 rounded-full shadow-sm overflow-hidden">
+    <div className="relative max-w-md mx-auto md:mt-8">
+      <div className="w-auto flex items-center border border-gray-100 rounded-full shadow-sm overflow-hidden">
         <input
           type="text"
           placeholder="Search..."
           value={query}
           onChange={handleInputChange}
-          className="flex-1 px-3 py-3 outline-none w-full border-r border-gray-300 max-w-xl"
+          className="flex-1 px-4 py-3 outline-none w-full border-r border-gray-300 max-w-xl"
         />
        
-        <input
-          type="text"
-          placeholder="Country..."
-          value={query}
-          onChange={handleInputChange}
-          className="flex-1 px-2 py-3 outline-none border-l border-gray-300  max-w-xl"
-        />
+       
         <button
           onClick={handleCloseSuggestions}
-          className="p-3 text-center font-bold text-gray-400 hover:text-gray-600 bg-blue-500 text-white w-10 h-10 mr-2 my-1 rounded-full transition-colors duration-200 hover:bg-blue-700"
+          className=" m-2 p-2 text-center font-bold text-gray-50 hover:text-gray-200 bg-blue-500  w-8 h-8 mr-2 my-1 rounded-full transition-colors duration-200 hover:bg-blue-700"
         >
-        <GoSearch />
+        <GoSearch className="w-4 h-4"/>
         </button>
       </div>
 

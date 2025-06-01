@@ -3,7 +3,7 @@ import { NavLink } from 'react-router';
 const HeroSection = () => {
   return (
 
-    <section className='container mx-auto mt-10 mb-5'>
+    <section className='container mx-auto mt-10 mb-5 p-5'>
      <div className='flex mb-5 px-5'> 
        <NavLink
               to="/"
@@ -14,7 +14,7 @@ const HeroSection = () => {
  
  
    <span className='text-sm text-gray-600'> BellaItalia</span></div>
-    <div  className=' bg-cover bg-center h-screen lg:flex items-center justify-center text-white relative'  style={{ backgroundImage:"url('/heroImage.png')"}}>
+    <div  className='p-2 bg-cover bg-center h-screen lg:flex items-center justify-center text-white relative rounded-md'  style={{ backgroundImage:"url('/heroImage.png')"}}>
       <div className=' mx-auto text-xl lg:w-[500px] lg:ml-16 p-4'>
         <h1 className='text-[52px] text-[#FFFFFF] font-bold'>Bella italia</h1>
         <span className='mt-4 flex gap-1 text-sm text-[#FFFFFF]'> {[...Array(5)].map((_, i) => (
@@ -34,7 +34,8 @@ The lorem ipsum is, in printing, a series of meaningless words used temporarily 
 </span>
 
 
-  <img src="./Logo.png" alt="" className='  -mb-[80%] mt-[45%] lg:-mb-[12rem] lg:mt-9 mx-auto lg:-mr-5' />
+  <img src="./Logo.png" alt="" className='w-auto lg:w-[139px] lg:h-[139px] rounded-full   -mb-[60%]  mt-[25%] lg:-mb-[12rem] lg:mt-9 mx-auto lg:-mr-5' />
+  
       </div>
     
 

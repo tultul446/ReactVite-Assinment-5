@@ -1,5 +1,5 @@
 import React from 'react'
-import MyMap from './MyMap';
+import MyMap from '../common/MyMap';
 import SortMenu from './Sort';
 import ReviewCard from '../common/ReviewCard';
 import { NavLink } from 'react-router';

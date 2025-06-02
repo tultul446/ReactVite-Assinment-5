@@ -26,7 +26,7 @@ const Activities = ( ) => {
   };
   return (
     <section className='min-w-auto overflow-hidden'>
-     <div className='w-auto p-6'>
+     <div className='w-auto p-6 mx-auto'>
         <h1 className='text-[32px] p-3 font-semibold'>Recents avtivities</h1>
           
 
@@ -43,7 +43,7 @@ const Activities = ( ) => {
           
         {/* main content */}
 
-<div className='grid grid-cols-1  lg:grid-cols-3 gap-7 '>
+<div className='grid grid-cols-1  lg:grid-cols-3 gap-7 md:mr-28'>
 
   {currentSlider.map((item, i) => (
 
@@ -94,8 +94,6 @@ const Activities = ( ) => {
             />
           ))}
         </div>
-
-
 
 
  </div>

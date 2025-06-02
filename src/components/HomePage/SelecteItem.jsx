@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink } from "react-router";
 import { SelectItems } from '../../lib/db';
+import MobileMenu from '../MobileMenu';
 const SelectItem = () => {
   return (
-    <section className=' ml-15 overflow-hidden'>
-     <ul className='flex items-center gap-6 mt-6 ml-6'>
+    <section className=' md:ml-15 overflow-hidden'>
+     <ul className='hidden md:flex items-center gap-6 mt-6 ml-6'>
         {SelectItems.map((item, index) => (
           <li key={index}>
             <NavLink
@@ -19,6 +20,12 @@ const SelectItem = () => {
           </li>
         ))}
       </ul>
+
+      {/* Mobile Menu */}
+   <div className='md:hidden m-5 text-black'>
+    <MobileMenu/>
+   </div>
+   
     </section>
   )
 }

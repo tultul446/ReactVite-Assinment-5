@@ -19,15 +19,15 @@ const SingaporeRes = () => {
  
  
    <span className='text-sm text-gray-600'>All Restaurants</span></div>
-     <div className='flex gap-5'>
-      <h1 className='text-[32px] font-bold text-[#1E1E1E]'>best restaurants in singapore</h1>
-      <div>
+     <div className='md:flex gap-5'>
+      <h1 className='text-[22px] w-auto md:text-[32px] px-2  font-bold text-[#1E1E1E]'>best restaurants in singapore</h1>
+      <div  className='md:ml-0 ml-17'>
         <SortMenu/>
       </div>
      </div>
  {/* Reviews section */}
-<div className='flex'>
-<div className='p-6'>
+<div className='flex mt-4'>
+<div className='p-1'>
  <ReviewCard/>
 
 </div>

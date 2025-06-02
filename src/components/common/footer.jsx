@@ -7,7 +7,7 @@ const Footer2 = () => {
 
 
 
-      <div className='container flex flex-warp justify-between items-center px-1 lg:px-9 mb-4 md:w-[1020px] text-center lg:ml-28'>
+      <div className='container sm:flex sm:mt-8  justify-between items-center px-1 lg:px-9 mb-4 md:w-[1020px] text-center lg:ml-28 sm:space-y-0 space-y-4'>
 
 
   <div className='space-y-2 text-start '>
@@ -24,7 +24,7 @@ const Footer2 = () => {
   </div>
 
   <div className='space-y-2'>
-    <h2 className='text-[20px] text-[#1E1E1E] font-bold'>MyFeedback</h2>
+    <h2 className='text-[20px] text-[#1E1E1E] font-bold text-start'>MyFeedback</h2>
     <ul className='text-sm text-gray-600 font-medium lg:space-y-1 text-start'>
         <li>MyFeedback for business</li>
         <li>Collections</li>
@@ -37,7 +37,7 @@ const Footer2 = () => {
     </ul>
   </div>
 
-  <div className='lg:mr-9 sm:mr-5 space-y-8 '>
+  <div className='lg:mr-9 sm:mr-5 space-y-8 text-start'>
     <div className='space-y-1'>
         <h3 className='text-[18px] text-[#1E1E1E] font-bold'>Language</h3>
         <select name="text" id="" >

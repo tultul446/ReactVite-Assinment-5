@@ -2,15 +2,15 @@ export const SelectItems = [
   { label: 'All', icon: './icon2.png', path: '/AllRestaurantsPage' },
   { label: 'Restaurants', icon: './icon3.png', path: '/' },
   { label: 'Hotels', icon: './icon4.png', path: '/HotelPage' },
-  { label: 'Home Services', icon: './icon5.png', path: '/home-services' },
-  { label: 'Shopping', icon: './icon6.png', path: '/shopping' },
-  { label: 'Car Location', icon: './icon7.png', path: '/car-location' },
-  { label: 'Beauty & Spa', icon: './icon8.png', path: '/beauty-spa' },
-  { label: 'Park', icon: './icon9.png', path: '/park' },
-  { label: 'Museum', icon: './icon10.png', path: '/museum' },
-  { label: 'Car Wash', icon: './icon11.png', path: '/car-wash' },
-  { label: 'Bars', icon: './icon12.png', path: '/bars' },
-  { label: 'Gyms', icon: './icon13.png', path: '/gyms' },
+  { label: 'Home Services', icon: './icon5.png', path: '/' },
+  { label: 'Shopping', icon: './icon6.png', path: '/' },
+  { label: 'Car Location', icon: './icon7.png', path: '/' },
+  { label: 'Beauty & Spa', icon: './icon8.png', path: '/' },
+  { label: 'Park', icon: './icon9.png', path: '/' },
+  { label: 'Museum', icon: './icon10.png', path: '/' },
+  { label: 'Car Wash', icon: './icon11.png', path: '/' },
+  { label: 'Bars', icon: './icon12.png', path: '/' },
+  { label: 'Gyms', icon: './icon13.png', path: '/' },
 ];
 
 
@@ -204,7 +204,7 @@ export  const cards = [
 
   export const activityData = [
     {
-   icon:'./Vector1.png',
+   icon:'./icon29.png',
    name:'Leslie sakho',
    p:'Canada, toronto',
    star:'./star.png',
@@ -218,7 +218,7 @@ export  const cards = [
    ],
     },
     {
-   icon:'./Vector1.png',
+   icon:'./icon29.png',
    name:'Chris macari',
    p:'Canada, toronto',
    star:'./star.png',
@@ -232,7 +232,7 @@ export  const cards = [
    ],
     },
     {
-   icon:'./Vector1.png',
+   icon:'./icon29.png',
    name:'Jojo alba',
    p:'Canada, toronto',
    star:'./star.png',

@@ -132,7 +132,7 @@ const ReviewCard = () => {
               <button
             onClick={closeReviews}
             disabled={visibleReviews <= 1}
-            className={`ml-[9rem] sm:ml-[19rem] px-4 py-2 font-bold rounded-full text-white ${visibleReviews <= 1 ? 'bg-red-400 cursor-not-allowed' : 'bg-green-400 hover:text-blue-950'}`}
+            className={`ml-[9rem] sm:ml-[19rem] px-4 py-2 font-bold rounded-full text-black ${visibleReviews <= 1 ? 'bg-red-100 cursor-not-allowed' : 'bg-blue-200 hover:text-blue-950'}`}
           >
             X
           </button>

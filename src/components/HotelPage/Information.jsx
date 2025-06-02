@@ -42,7 +42,7 @@ const Information = () => {
 
 </div>
       {/* Right side */}
-      <div className='w-full lg:w-1/2 p-4'>
+      <div className=' inset-0 bg-opacity-50  z-40 w-full lg:w-1/2 p-4'>
       <MyMap/>
       </div>
 

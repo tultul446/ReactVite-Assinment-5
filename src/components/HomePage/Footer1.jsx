@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Footer2 = () => {
+const Footer1 = () => {
   return (
     <section className='w-auto container m-6 h-auto overflow-hidden'>
 
@@ -16,16 +16,13 @@ const Footer2 = () => {
         <li>About MyFeedback</li>
         <li>Investor Relations</li>
         <li>Trust & Safety</li>
-        <li>Content Guidelines</li>
-        <li>Terms of Service</li>
-        <li>Privacy Policy</li>
-        <li>Your Privacy Choices</li>
+        
     </ul>
   </div>
 
   <div className='space-y-2'>
     <h2 className='text-[20px] text-[#1E1E1E] font-bold'>MyFeedback</h2>
-    <ul className='text-sm text-gray-600 font-medium lg:space-y-1 text-start'>
+    <ul className='text-sm text-gray-600 font-medium lg:space-y-3'>
         <li>MyFeedback for business</li>
         <li>Collections</li>
         <li>Talk</li>
@@ -67,4 +64,4 @@ Septembre 2023 myfeedback, designed by scott</p>
   )
 }
 
-export default Footer2;
+export default Footer1

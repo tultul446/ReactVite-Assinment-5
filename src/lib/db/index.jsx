@@ -287,3 +287,44 @@ export  const cards = [
         comment: "Absolutely amazing! Will order again."
       }
     ];
+
+
+
+    export const cardItems = [
+      {
+      title: 'Bella Italia',
+      des:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+      rating:'./star.png',
+    
+      reviews:'4.8 (34 reviews)',
+      images: [
+        './image1.png',
+        './image2.png',
+        './image3.png',
+      ],
+    },
+    {
+      title: 'Marafuku Ramen',
+      des:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+     
+      rating:'./star.png' ,
+      reviews:'5.0 (253 reviews)',
+      images: [
+        './image2.png',
+        './image3.png',
+        './image4.png',
+      ],
+    },
+    {
+      title: 'Marafuku Ramen',
+      des:'The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.',
+    
+      rating:'./star.png',
+      reviews:'4.8 (34 reviews)',
+      images: [
+        './image3.png',
+        './image4.png',
+        './image5.png',
+      ],
+    },
+    ]

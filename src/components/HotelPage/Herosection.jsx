@@ -1,19 +1,26 @@
 import React from 'react'
 import { NavLink } from 'react-router';
+import BasicModal from '../common/Modal2';
+
+ // Adjust the import path as necessary
 const HeroSection = () => {
   return (
 
     <section className='container mx-auto mt-10 mb-5 p-5'>
-     <div className='flex mb-5 px-5'> 
+     <div className='flex mb-6 px-5'> 
        <NavLink
               to="/"
               className={({ isActive }) =>
-                `text-sm ${isActive ? 'text-blue-800' : 'text-gray-500'} flex flex-col items-center`
+                `text-lg  ${isActive ? 'text-blue-800' : 'text-gray-500'} flex flex-col items-center`
               }
             >Home /</NavLink>
- 
- 
-   <span className='text-sm text-gray-600'> BellaItalia</span></div>
+         <span className='text-sm text-gray-700 '>
+            <BasicModal/>
+          </span>
+   
+    
+     
+     </div>
     <div  className='p-2 bg-cover bg-center h-screen lg:flex items-center justify-center text-white relative rounded-md'  style={{ backgroundImage:"url('/heroImage.png')"}}>
       <div className=' mx-auto text-xl lg:w-[500px] lg:ml-16 p-4'>
         <h1 className='text-[52px] text-[#FFFFFF] font-bold'>Bella italia</h1>

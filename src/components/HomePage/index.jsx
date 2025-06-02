@@ -5,7 +5,8 @@ import HeroSection from './Hero'
 import CardSection from './CardSection'
 import MyFeedback from './MyFeedback'
 import Activities from './Acitivites'
-import Footer from '../common/footer'
+
+import Footer1 from './Footer1'
 const index = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const index = () => {
       <CardSection/>
       <MyFeedback/>
       <Activities/>
-      <Footer/>
+      <Footer1/>
     </>
   )
 }

@@ -22,9 +22,9 @@ const PhotoSection = () => {
 
 </div>
 <div className='absolute -mt-24 mb-3 lg:mb-9 p-3   ml-3 lg:ml-6'>
-<button className='px-3 py-1.5'>
+<div className='px-3 py-1.5'>
      <PhotoCard/>
-     </button>
+     </div>
 </div>
 
 </div>

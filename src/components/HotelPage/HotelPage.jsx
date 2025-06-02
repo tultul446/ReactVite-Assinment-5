@@ -5,6 +5,9 @@ import PhotoSection from './PhotoSection'
 import PhotoCard from './PhotoCard'
 import Information from './Information'
 import RatingComponent from './RatingComponent'
+import ReviewSection from './ReviewSection'
+
+
 
 const HotelPage = () => {
   return (
@@ -15,6 +18,7 @@ const HotelPage = () => {
       <PhotoSection/>
      <Information/> 
      <RatingComponent/>
+    <ReviewSection/>
       
     </div>
   )

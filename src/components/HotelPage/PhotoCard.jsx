@@ -17,4 +17,4 @@ import { IoAppsSharp } from "react-icons/io5";
     </div>
   );
 }
-export default PhotoCard;
+export default PhotoCard; 

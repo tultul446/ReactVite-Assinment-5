@@ -9,10 +9,6 @@ import ReviewSection from './ReviewSection'
 import Discover from './Discover'
 import Footer2 from '../common/footer'
 
-
-
-
-
 const HotelPage = () => {
   return (
     <div>

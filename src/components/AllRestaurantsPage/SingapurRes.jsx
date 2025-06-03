@@ -32,15 +32,10 @@ const SingaporeRes = () => {
 
 </div>
 
-
-
 </div>
 
 
-
-
   </section>
-
 
 
    {/* Right section */}
@@ -48,8 +43,6 @@ const SingaporeRes = () => {
 <div className='lg:ml-9 lg:-mr-15'>
     <MyMap/>
 </div>
-
-
 
 </section>
 

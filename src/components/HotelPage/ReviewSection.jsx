@@ -1,6 +1,6 @@
 import React from 'react'
 import FilterMenu from '../common/filter'
-import SortMenu from '../common/sort';
+import SortMenu from '../common/Sort';
 import CardReview from './CardReview';
 const ReviewSection = () => {
   return (

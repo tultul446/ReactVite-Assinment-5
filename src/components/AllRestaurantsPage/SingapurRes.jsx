@@ -1,6 +1,6 @@
 import React from 'react'
 import MyMap from '../common/MyMap';
-import SortMenu from '../common/Sort'
+import SortMenu from '../common/Sort';
 import ReviewCard from '../common/ReviewCard';
 import { NavLink } from 'react-router';
 const SingaporeRes = () => {
